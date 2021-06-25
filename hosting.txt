@@ -1,0 +1,2 @@
+Firebase Hosting : https://football-stands.web.app/
+Github Pages : pandu9aga.github.io

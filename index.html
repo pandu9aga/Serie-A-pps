@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="manifest" href="/manifestfcm.json">
+    <link rel="shortcut icon" type="image/png" href="images/icons/icon16.png"/>
+    <link rel="icon" type="image/png" href="images/icons/icon32.png"/>
+    <link rel="apple-touch-icon" href="images/icons/icon192.png">
+    <meta name="theme-color" content="#ffffff" />
+    <title>Serie-A</title>
+  </head>
+  <body class="white">
+    <!-- Navigasi -->
+    <nav class="blue z-depth-0" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="/" class="brand-logo white-text" id="logo-container">Serie-A'pps</a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile">
+          <i class="material-icons white-text">menu</i>
+        </a>
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+      </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <div class="container" id="body-content">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script  src="js/sw.js"></script>
+  </body>
+</html>
