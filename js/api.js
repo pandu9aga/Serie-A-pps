@@ -69,7 +69,7 @@ function getStandings(id_liga = "2019") {
 
   fetch(base_url + `competitions/${id_liga}/standings`, {
     headers: {
-      "X-Auth-Token": "0acbfd337c504659ac0a11a448212ebd",
+      "X-Auth-Token": "write your own token",
     },
   })
     .then(status)
@@ -151,7 +151,7 @@ function getTeams(id_liga = "2019") {
 
   fetch(base_url + `competitions/${id_liga}/teams`, {
     headers: {
-      "X-Auth-Token": "0acbfd337c504659ac0a11a448212ebd",
+      "X-Auth-Token": "write your own token",
     },
   })
     .then(status)
@@ -249,7 +249,7 @@ function getTeamById() {
 
     fetch(base_url + "teams/" + idParam, {
       headers: {
-        "X-Auth-Token": "0acbfd337c504659ac0a11a448212ebd",
+        "X-Auth-Token": "write your own token",
       },
     })
       .then(status)
